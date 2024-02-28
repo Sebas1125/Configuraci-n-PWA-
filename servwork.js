@@ -5,8 +5,9 @@ const CACHE_NAME = 'v1_cache_blog_personal',
     './',
     './estilos.css',
     './script.js',
-    './img/favicon.png'
-    
+    './servworkjs',
+    './imagenes/favicon.png'
+
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
