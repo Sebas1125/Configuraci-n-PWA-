@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuraciones PWA</title>
+    <!--Enlace del favicon-->
+    <link rel="icon" href="/imagenes/favicon.png">
+    <!--Enlaces-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--Estilos-->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel=“manifest.json”href=“./manifest.json”>
+ 
+</head>
+
+<body>
+    <!--Contenedor-->
+    <div class="container-fluid principal">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 header">
+                <!-- Logo -->
+                <h1 id="logo"><a href="../APPS" title="Mi sitio web">Mi sitio web</a></h1>
+
+                <div class="clear"></div>
+
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 navbar">
+                <div id="menu">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li class="seleccionado"><a href="#">Blog</a></li>
+                    </ul>
+
+                    <div class="clear"></div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 col-md-9 order-md-3 order-lg-2 col-lg-10 main">
+
+                  <!-- Principal -->
+                <div id="contenido1">
+                  
+
+                    <!-- Articulo 1 -->
+                    <div class="articulo">
+                        <h2><a href="#"> Mis recuerdos</a></h2>
+                        <p class="info">
+                        </p>
+                        <!--Enlace a las imagenes dentro del folder imagenes-->
+                        <img src="imagenes/foto1.jpg">
+
+                        <p>Esta foto fue tomada durante mi viaje hacia la CDMX,
+                             tome la foto en la zona de polanco cerca del museo Soumaya. 
+                            </p>
+
+                    </div> <!-- /articulo -->
+
+                    <div class="clear"></div>
+
+                    <!-- Articulo 2 -->
+                    <div class="articulo">
+                        <h2><a href="#"> Mis recuerdos</a></h2>
+                        <p class="info">
+                        </p>
+
+                        <img src="imagenes/foto2.jpg">
+
+                        <p>Aqui visite un pequeño lago en EUA con mis familiares.</p>
+                    </div> <!-- /articulo -->
+
+                    <div class="clear"></div>
+
+                    <!-- Articulo 3 -->
+                    <div class="articulo">
+                        <h2><a href="#"> Mis recuerdos</a></h2>
+                        <p class="info">
+                        </p>
+
+                        <img src="imagenes/palacio.jpg">
+
+                        <p>Tome esta foto del palacio de bellas artes en mi viaje a la CDMX,mientras iba el turibus.</p>
+                    </div> <!-- /articulo -->
+
+                    <div class="clear"></div>
+
+                </div><!-- /principal -->
+
+            </div>
+
+            <!--Contenido secundario-->
+            <div class="col-sm-12 col-md-3 order-md-2 col-lg-2 sidebar">
+
+                <div id="secundario">
+
+                    <!-- Sobre mi -->
+                    <h3><a href="#">Sobre mí</a></h3>
+                    <div id="sobremi">
+                        <img src="imagenes/yo.jpg" alt="Mi foto" />
+                        <p><strong>Kevin Sebastian Portillo Barron</strong><br />
+                            Edad: 21<br />
+                            Cd.Juarez<br />
+                        </p>
+                    </div> <!-- /sobre mi -->
+                    <div class="clear"></div>
+
+            <div class="col-sm-12 col-md-12 order-md-4 col-lg-12 footer">
+            <!--Fin del contenido secundario-->
+
+                <!-- Pie de página -->
+                <div id="pie">
+                    <p id="copyright">&copy; Sebastian Portillo</p>
+                </div> <!-- / fin del pie de página -->
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!--Enlace de script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+        <!--Enlace del script-->
+        <script src="./script.js"></script>
+
+</body>
+
+</html>

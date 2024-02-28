@@ -1,0 +1,214 @@
+[class*="col"] {
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+/*Color de fondo de la pagina*/
+[class*="con"] {
+  background-color: 	#ffffe0;
+}
+
+
+a {
+  color: #192666;
+}
+
+a:hover {
+  color: #4F6AD7;
+}
+
+
+.clear {
+  clear: both;
+}
+
+/*Estilos para los titulos de la pagina*/
+h1,h2,h3,h4,h5 {
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*Titulo 1*/
+h1 {
+  font-size: 260%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+}
+
+/*Titulo 2*/
+h2 {
+  font-size: 180%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+}
+
+/*Titulo 3*/
+h3 {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+
+ul,
+ol {
+  margin: 1em 0 1em 2em;
+  padding: 0;
+}
+
+#contenido1 #principal {
+  margin-top: 15px;
+  background: #FFF;
+}
+
+#secundario {
+  background: #CEDBF9 url("../imagenes/fondo_columna.gif") no-repeat;
+}
+
+
+/*Estilos del header*/
+.header {
+  text-align: left;
+  background-color: #008080;
+}
+
+/*Estilos para los textos*/
+h1 {
+  font-size: 160%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+}
+
+/*Estilos para el logo texto del header*/
+#logo a {
+  color: black;
+  display: block;
+  line-height: 35px;
+}
+
+/*Colores del menu*/
+.navbar {
+  background: #008080;
+}
+
+#menu {
+  margin: 0 5px;
+  padding: 10px 0 0 0;
+
+}
+
+#menu ul {
+  margin: 0 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li {
+  margin: 0 5px 0 0;
+  padding: 0;
+  float: left;
+}
+
+#menu ul li a {
+  display: block;
+  position: relative;
+  justify-content: center;
+  padding: 5px 15px;
+  border: 0;
+  background: #483d8b;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menu ul li a:hover {
+  background: #31479B;
+}
+
+#menu ul li.seleccionado a {
+  background: #FFF;
+  color: black;
+}
+
+.main {
+  height: auto;
+  color: black;
+
+}
+
+
+#contenido1 .articulo {
+
+  padding: 20px;
+  font-size: medium;
+}
+
+#contenido1 .articulo img {
+  width: 55%;
+  border-radius: 15px;
+}
+
+#contenido1 .articulo h2 {
+  margin: 0 -20px;
+  padding: 10px;
+  background-color: #008080;
+  color: black;
+}
+
+.sidebar {
+  text-align: center;
+  color: black
+}
+
+#secundario h3 {
+  padding: 10px 0 10px 10px;
+  margin-top: 20px;
+  background: #008080;
+  color: black;
+}
+
+#secundario #sobremi img {
+
+  margin: 4px 5px 0 0;
+  width: 100%;
+}
+
+#secundario div {
+  padding: 0 10px;
+}
+
+#secundario ul {
+  margin: 15px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#secundario li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #E0E8FA;
+}
+
+#secundario li a {
+  display: block;
+  padding: 3px 0 3px 22px;
+  background: url("../imagenes/icono_elemento.gif") 8px no-repeat;
+  text-decoration: none;
+}
+
+#secundario li a:hover {
+  background-color: #ffffe0;
+  color: #192666;
+}
+
+#secundario li.seleccionado a {
+  background: #E0E8FA url("../imagenes/icono_elemento_seleccionado.gif") 8px no-repeat;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  background-color: #6685CC;
+  color: black
+}
