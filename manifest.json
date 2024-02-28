@@ -1,13 +1,19 @@
 {
-    "name": "#Configuraciones PWA",
-    "short_name": "#PWA",
-    "description": "Bienvenid@s a mi blog personal :)",
-    "background_color": "#ffffe0",
-    "theme_color": "#F0DB4F",
-    "orientation": "portrait",
-    "display": "standalone",
-    "start_url": "./?utm_source=web_app_manifest",
-    "scope": "./",
-    "lang": "es-MX"
-    
-  }
+  "name": "#Configuracion PWA",
+  "short_name": "#ProgramadorFitness",
+  "description": "Bienvenid@s a mi blog personal:)",
+  "background_color": "#ffffe0",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./imagenes/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
